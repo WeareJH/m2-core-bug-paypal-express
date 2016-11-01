@@ -1,0 +1,16 @@
+{
+    "name": "wearejh/m2-core-bug-paypal-express",
+    "description": "JH M2 Core Bug Fix - PayPal Express tries to remove stock twice",
+    "require": {
+        "php": "~7.0.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jh\\CoreBugPaypalExpress\\": ""
+        }
+    }
+}
